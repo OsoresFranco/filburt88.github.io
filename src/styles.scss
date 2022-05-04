@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    border-style: none;
+    border-radius: 12px;
+    background: #4C40F7;
+
+    height: 40px;
+    width: 110px;
+
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button:active{
+    transform: scale(0.98);
+    background-color: #756cf3;
+    background-size: 100%;
+    transition: 0.1s;
+}
+
+button:hover{
+    cursor: pointer;
+}
