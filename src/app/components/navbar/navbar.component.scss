@@ -4,44 +4,53 @@
     justify-content: space-between;
     align-items: center;
     margin: 0px 40px 0px 40px;
+    z-index: 5;
 }
 
 .navbar-logo{
     height: 120px;
     width: auto;
+    z-index: 5;
 }
 
 .navbar-links{
     display: flex;
     justify-content: space-evenly;
     width: 30%;
+    z-index: 5;
 }
 
 .spacer{
+    width: 100%;
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
     background-color: #ffffff;
+    z-index: 5;
 }
 
 .navbar-button , .navbar-logo{
     filter: drop-shadow(3px 3px 10px rgba(76, 64, 247, 0.25));
+    z-index: 5;
 }
 
 .navbar-link{
     font-weight: 600;
     color: #6B6B6B;
     margin: 0px 10px 0px 10px;
+    z-index: 5;
 }
 
 .navbar-link:hover{
     transform: scale(1.1);
     cursor: pointer;
     color: #4C40F7;
+    z-index: 5;
 }
 
 .navbar-link:active{
     transform: scale(0.98);
     transition: 0.1s;
+    z-index: 5;
 }

@@ -1,0 +1,83 @@
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card{
+    margin: 50px;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+
+    background-color: #FFFFFF;
+    filter: drop-shadow(5px 15px 100px rgba(109, 109, 109, 0.4)) ;
+}
+
+.skill-card:hover{
+    background-color: #4C40F7;
+    transition: all 1s ease-out;
+    .card-img-container, #design , #web, #react , #typescript , #javascript{
+        background-color: #FFFFFF;
+        transition: 1s;
+    }
+    .card-text , .card-title{
+        color: #FFFFFF;
+        transition: 1s;
+    }
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-container{
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background-color: #FF2D59;
+}
+
+.card-img{
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.card-title{
+    margin: 0px 10px 10px 10px;
+}
+
+.card-text{
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+#design{
+    background-color: #4ADB61;
+}
+
+#web{
+    background-color: #007BFF;
+}
+
+#react{
+    background-color: #FF6800;
+}
+
+#typescript{
+    background-color: #003fb4;
+}
+
+#javascript{
+    background-color: #FFCC00;
+}
+
