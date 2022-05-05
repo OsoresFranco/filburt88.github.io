@@ -24,11 +24,13 @@ button:active{
     transform: scale(0.98);
     background-color: #756cf3;
     background-size: 100%;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 button:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .section-title{
@@ -41,7 +43,14 @@ button:hover{
 
 .section-subtitle{
     text-align: center;
-    color: 6B6B6B;
+    color: #6B6B6B;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}

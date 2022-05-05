@@ -1,6 +1,75 @@
 .education-section{
-    width: 100%;
-    background-color: #FE9602;
+    width: 50%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+}
+
+.education-img{
+    max-width: 150px;
+}
+
+h3, h4, h5{
+    margin: 3px 10px 3px 10px;
+    text-align: center;
+}
+
+.institution{
+    color: #4C40F7;
+}
+
+.year{
+    color: #6B6B6B;
+}
+
+h3 p {
+    color: #111029;
+}
+
+h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FE9602;
+}
+
+.education-text-section{
+    width: 50%;
+    color: #ffffff;
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+li{
+    list-style: none;
+}
+
+.text-container{
+    margin: 50px;
+}
+
+span{
+    color: #4C40F7;
+    font-weight: bolder;
 }
