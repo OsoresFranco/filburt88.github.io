@@ -1,6 +1,14 @@
 <div class="spacer">
     <header class="navbar-container">
-        <img class="navbar-logo" src="../../../assets/logo/logo.svg" alt="Franco's logo"/>
+        <img (click)="scrollTo('home')" class="navbar-logo" src="../../../assets/logo/logo.svg" alt="Franco's logo"/>
+        <div class="mobile-links">
+            <img [matMenuTriggerFor]="menu" src="../../../assets/icons/menu.svg" alt="mobile menu">
+            <mat-menu #menu="matMenu">
+                <button (click)="scrollTo('skills')" mat-menu-item>Skills</button>
+                <button (click)="scrollTo('education')" mat-menu-item>Education</button>
+                <button (click)="scrollTo('projects')" mat-menu-item>Projects</button>
+            </mat-menu>
+        </div>
         <nav class="navbar-links">
             <a class="navbar-link" (click)="scrollTo('home')">Home</a>
             <a class="navbar-link" (click)="scrollTo('skills')">Skills</a>
