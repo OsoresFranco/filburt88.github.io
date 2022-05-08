@@ -1,0 +1,34 @@
+.form-section{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    width: 50%;
+    background-color: #FFCC00;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+mat-form-field{
+    width: 70%;
+    margin: 10px;
+}
+
+.form-cta{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.form-title{
+    margin-top: 0px;
+}
+
+p , h2{
+    color: #111029;
+}

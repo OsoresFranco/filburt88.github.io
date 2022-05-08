@@ -2,11 +2,11 @@
     <header class="navbar-container">
         <img class="navbar-logo" src="../../../assets/logo/logo.svg" alt="Franco's logo"/>
         <nav class="navbar-links">
-            <a class="navbar-link">Home</a>
-            <a class="navbar-link">Skills</a>
-            <a class="navbar-link">Education</a>
-            <a class="navbar-link">Projects</a>
+            <a class="navbar-link" (click)="scrollTo('home')">Home</a>
+            <a class="navbar-link" (click)="scrollTo('skills')">Skills</a>
+            <a class="navbar-link" (click)="scrollTo('education')">Education</a>
+            <a class="navbar-link" (click)="scrollTo('projects')">Projects</a>
         </nav>
-        <button class="navbar-button">Contact me!</button>
+        <button class="navbar-button" (click)="scrollTo('contact')">Contact me!</button>
     </header>
 </div>

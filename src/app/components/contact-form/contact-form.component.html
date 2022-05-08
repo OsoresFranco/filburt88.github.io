@@ -1,0 +1,35 @@
+
+<div class="form-section" id="contact">
+    <section class="form-container">
+        <form autocomplete="off" (ngSubmit)="send()" [formGroup]="form">
+            <p class="form-cta">Are you ready to start a new project?</p>
+            <h2 class="form-title">Let's work together!</h2>
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Your Name" formControlName="name">
+                <mat-hint>
+                  Min. 3 Characters
+                </mat-hint>
+              </mat-form-field>
+
+              <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Your Email" formControlName="email">
+                <mat-hint>
+                  Ex: my@provider.com
+                </mat-hint>
+              </mat-form-field>
+
+              <mat-form-field appearance="fill">
+                <mat-label>Message</mat-label>
+                <textarea matInput placeholder="Your Message" formControlName="message">
+                </textarea>
+                <mat-hint>
+                  Min. 15 Characters
+                </mat-hint>
+              </mat-form-field>
+
+            <button type="submit" [disabled]="form.invalid">Send</button>
+        </form>
+    </section>
+</div>
